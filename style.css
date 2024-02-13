@@ -1,2 +1,48 @@
 /* stylesheet */
 
+/* flexbox properties */
+html{
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 16px 150px;
+}
+
+.header,
+.footer{
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.header .right{
+    display: flex;
+    gap: 10px;
+}
+
+/* fonts, colors, ... */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.header h1{
+
+}
