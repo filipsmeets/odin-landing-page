@@ -1,33 +1,41 @@
 /* stylesheet */
 
-/* flexbox properties */
 html{
     font-family: "Roboto", sans-serif;
 }
 
 body{
-    display: flex;
-    flex-direction: column;
-}
-
-.header,
-.footer{
     background-color: #1F2937;
     display: flex;
-    align-items: center;
-    padding: 16px 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 24px;
     color: #F9FAF8;
-    gap: 10px;
-    justify-content: space-between;
+    padding: 16px 150px;
+}
+
+.header-right{
+    display: flex;
+    gap: 16px;
+}
+
+.footer{
+    font-size: 24px;
+    color: #F9FAF8;
+    align-self: center;
 }
 
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+    padding-right: 16px;
 }
 
 a{
@@ -37,33 +45,36 @@ a{
 }
 
 .hero{
-    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 150px;
+    gap: 20px;
+}
+
+.hero-right{
     display: flex;
     justify-content: center;
-    padding: 16px 150px;
-    gap: 16px;
-}
-
-.hero-right{
+    align-items: center;
     background-color: grey;
     color: #E5E7EB;
-    align-self: stretch;
 }
 
-.hero-left,
-.hero-right{
-    outline: green solid;
+.hero-image{
+    min-width: 300px;
+    text-align: center;
 }
 
 .hero h1{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin: 0;
 }
 
 .hero .sub{
     font-size: 18px;
     color: #E5E7EB;
+    margin: 6px 0px;
 }
 
 button{
@@ -83,14 +94,19 @@ ul{
     background-color: #3882F6;
     margin: 16px 150px;
     border-radius: 6px;
+    padding: 20px 60px;
 }
 
 .call-to-action h1{
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
+    padding: 0;
 }
 
 .call-to-action .sub{
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
+    padding: 0;
 }
