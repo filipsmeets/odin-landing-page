@@ -46,7 +46,7 @@ a{
 
 .hero{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     padding: 16px 150px;
     gap: 20px;
@@ -100,23 +100,31 @@ button{
 
 .info-items{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-between;
-    /* padding: 16px 150px; */
     gap: 20px;
+    /* width: 100px; */
 }
 
 .info-img{
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     outline: blue solid;
     border-radius: 8px;
+}
+
+.info-txt{
+    width: 100px;
 }
 
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+li{
+    text-align: center;
 }
 
 .call-to-action{
