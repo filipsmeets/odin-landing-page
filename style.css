@@ -46,13 +46,21 @@ a{
 
 .hero{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 16px 150px;
     gap: 20px;
 }
 
+.hero-left{
+    width: 500px;
+    min-height: 200px;
+}
+
 .hero-right{
     display: flex;
+    flex: 0 0 400px;
+    height: 200px;
     justify-content: center;
     align-items: center;
     background-color: grey;
@@ -60,7 +68,6 @@ a{
 }
 
 .hero-image{
-    min-width: 300px;
     text-align: center;
 }
 
@@ -108,5 +115,5 @@ ul{
     font-size: 18px;
     color: #E5E7EB;
     margin: 0;
-    padding: 0;
+    padding: 6px 0;
 }
