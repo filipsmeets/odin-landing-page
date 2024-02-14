@@ -53,13 +53,13 @@ a{
 }
 
 .hero-left{
-    width: 500px;
+    width: 400px;
     min-height: 200px;
 }
 
 .hero-right{
     display: flex;
-    flex: 0 0 400px;
+    flex: 0 0 380px;
     height: 200px;
     justify-content: center;
     align-items: center;
