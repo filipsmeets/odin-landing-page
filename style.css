@@ -89,6 +89,28 @@ button{
     color: #E5E7EB;
     background-color: #3882F6;
     border-radius: 6px;
+    padding: 8px 30px;
+}
+
+.information{
+    background-color: white;
+    padding: 16px 150px;
+    text-align: center;
+}
+
+.info-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 16px 150px; */
+    gap: 20px;
+}
+
+.info-img{
+    width: 60px;
+    height: 60px;
+    outline: blue solid;
+    border-radius: 8px;
 }
 
 ul{
